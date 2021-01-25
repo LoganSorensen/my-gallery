@@ -45,12 +45,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
   width: 20%;
   text-align: center;
   background-color: #e5e5e5;
   border-radius: 12px;
   font-weight: 600;
-  padding: 3% 3%;
+  padding: 3%;
 }
 
 .amount {
@@ -121,4 +122,63 @@ img {
 .vertical-image {
   max-height: 100%;
   width: 30%;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    padding: 5% 3%;
+  }
+
+  .user-info {
+    width: 70%;
+  }
+
+  .name {
+    font-size: 14px;
+    line-height: 17.07px;
+  }
+
+  .location {
+    font-size: 10px;
+    line-height: 12.19px;
+  }
+
+  .posts,
+  .followers,
+  .following {
+    padding: 3% 5%;
+  }
+
+  .posts-and-followers p,
+  .posts-and-followers p:nth-child(even) {
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+
+  .first-row,
+  .second-row,
+  .third-row {
+    height: 12vh;
+  }
+
+  .first-row img:first-child {
+    width: 32%;
+  }
+
+  .first-row img:last-child {
+    width: 63%;
+  }
+
+  .rows {
+    width: 63%;
+  }
+
+  .third-row img {
+    width: 47%;
+  }
+
+  .vertical-image {
+    width: 32%;
+    max-height: 25vh;
+  }
 }
