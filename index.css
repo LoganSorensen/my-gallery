@@ -1,0 +1,124 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding: 5% 20%;
+}
+
+.user-info {
+  width: 32%;
+  margin: 0 auto 7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-pic {
+  border-radius: 16px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.name-and-loc {
+  text-align: center;
+  font-weight: 600;
+}
+
+.name {
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #4e5150;
+}
+
+.location {
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #a9a9a9;
+}
+
+.posts-and-followers {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.posts,
+.followers,
+.following {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 20%;
+  text-align: center;
+  background-color: #e5e5e5;
+  border-radius: 12px;
+  font-weight: 600;
+  padding: 3% 3%;
+}
+
+.amount {
+  font-size: 18px;
+  line-height: 21.94px;
+  margin: 0;
+  margin-bottom: 5%;
+}
+
+.posts-and-followers p:nth-child(even) {
+  margin: 0;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #bdbdbd;
+}
+
+img {
+  max-height: 100%;
+}
+
+.gallery img {
+  border-radius: 12px;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+}
+
+.first-row,
+.second-row,
+.third-row {
+  display: flex;
+  justify-content: space-between;
+  height: 33vh;
+}
+
+.first-row,
+.second-row {
+  margin-bottom: 3%;
+}
+
+.first-row img:first-child {
+  width: 30%;
+}
+
+.first-row img:last-child {
+  width: 65%;
+}
+
+.lower-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.rows {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.second-row img {
+  width: 100%;
+}
+
+.third-row img {
+  width: 45%;
+}
+
+.vertical-image {
+  max-height: 100%;
+  width: 30%;
+}
